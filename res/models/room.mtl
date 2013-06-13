@@ -1,0 +1,85 @@
+# Blender MTL File: 'Interior_visualization.blend'
+# Material Count: 8
+newmtl 
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+
+newmtl BG
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+
+newmtl Floor
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.217193 0.238981 0.248644
+Ks 0.079604 0.096155 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/room/retina_wood_@2X.png
+
+
+newmtl Floor_retina_dust_@2X.png
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.217193 0.238981 0.248644
+Ks 0.079604 0.096155 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/room/retina_dust_@2X.png
+
+
+newmtl Frame
+Ns 390.196078
+Ka 0.000000 0.000000 0.000000
+Kd 0.229580 0.249900 0.280438
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+
+
+newmtl Frame_dark_wood_@2X.png
+Ns 390.196078
+Ka 0.000000 0.000000 0.000000
+Kd 0.229580 0.249900 0.280438
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd textures/room/dark_wood_@2X.png
+
+
+newmtl Walls
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 0.600939 0.611230 0.619406
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl Walls_PinkFloydWallCoverOriginalNoText.jpg
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 0.600939 0.611230 0.619406
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/room/PinkFloydWallCoverOriginalNoText.jpg
+
+

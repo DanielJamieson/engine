@@ -1,0 +1,42 @@
+﻿Build started 13/06/2013 17:22:54.
+     1>Project "C:\dev\engine\src\src.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "obj\Debug\src.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\lib\glload\include /I..\lib\glimg\include /I..\lib\glutil\include /I..\lib\glmesh\include /I..\lib\glm /I..\lib\glfw\include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Engine\Camera.cpp Engine\Crosshair.cpp Engine\Engine.cpp Engine\Mesh.cpp Engine\OGLRenderer.cpp Engine\Player.cpp Engine\SceneNode.cpp Engine\Shader.cpp Games\Game.cpp Scenes\GameScene.cpp main.cpp
+         main.cpp
+         GameScene.cpp
+     1>c:\dev\engine\src\scenes\gamescene.cpp(6): error C2065: 'camera' : undeclared identifier
+     1>c:\dev\engine\src\scenes\gamescene.cpp(6): error C2039: 'Camera' : is not a member of 'engine'
+     1>c:\dev\engine\src\scenes\gamescene.cpp(6): error C2061: syntax error : identifier 'Camera'
+     1>c:\dev\engine\src\scenes\gamescene.cpp(18): error C2065: 'camera' : undeclared identifier
+     1>c:\dev\engine\src\scenes\gamescene.cpp(18): error C2541: 'delete' : cannot delete objects that are not pointers
+         Engine.cpp
+     1>c:\dev\engine\src\engine\engine.cpp(67): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         Game.cpp
+         Player.cpp
+     1>c:\dev\engine\src\engine\player.cpp(47): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\dev\engine\src\engine\player.cpp(51): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\dev\engine\src\engine\player.cpp(55): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\dev\engine\src\engine\player.cpp(59): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         OGLRenderer.cpp
+     1>c:\dev\engine\src\engine\oglrenderer.cpp(48): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dev\engine\src\engine\oglrenderer.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dev\engine\src\engine\oglrenderer.cpp(128): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dev\engine\src\engine\oglrenderer.cpp(246): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+         Crosshair.cpp
+         Camera.cpp
+     1>c:\dev\engine\src\engine\camera.cpp(65): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\dev\engine\src\engine\camera.cpp(66): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Shader.cpp
+         SceneNode.cpp
+         Mesh.cpp
+     1>Done Building Project "C:\dev\engine\src\src.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.89

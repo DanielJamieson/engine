@@ -1,0 +1,44 @@
+# Blender MTL File: 'windmills.blend'
+# Material Count: 4
+newmtl Material.001
+Ns 147.058824
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.598765 0.598765 0.598765
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl Material.002
+Ns 147.058824
+Ka 0.000000 0.000000 0.000000
+Kd 0.166333 0.166333 0.166333
+Ks 0.598765 0.598765 0.598765
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl Material_Grass0110_9_S.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.129630 0.129630 0.129630
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\landscape/Grass0110_9_S.jpg
+map_Bump textures\landscape/Grass0110_9_S.jpg
+
+
+newmtl _SkyDome-Cloud-Heavy-Noon.png
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd textures\landscape/SkyDome-Cloud-Heavy-Noon.png
+
+

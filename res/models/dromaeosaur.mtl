@@ -1,0 +1,49 @@
+# Blender MTL File: 'Dromaeosaur.blend'
+# Material Count: 4
+newmtl Claws
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.008869 0.008225 0.006610
+Ks 0.050000 0.050000 0.050000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/dromaeosaur/OldPaperTexture_scaled.png
+map_Bump textures/dromaeosaur/OldPaperTexture_scaled.png
+
+
+newmtl Dromaeosaur
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.654054 0.447838
+Ks 0.050000 0.050000 0.050000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/dromaeosaur/OldPaperTexture_scaled.png
+map_Bump textures/dromaeosaur/OldPaperTexture_scaled.png
+
+
+newmtl Eye
+Ns 749.999996
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/dromaeosaur/Raptor Eye.png
+
+
+newmtl Teeth
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.776957 0.563162
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/dromaeosaur/OldPaperTexture_scaled.png
+map_Bump textures/dromaeosaur/OldPaperTexture_scaled.png
+
+

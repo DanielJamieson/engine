@@ -1,0 +1,28 @@
+﻿Build started 16/05/2013 13:04:12.
+     1>Project "C:\dev\engine\csc3204\lib\glload\glload.vcxproj" on node 6 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "lib\".
+       InitializeBuildStatus:
+         Creating "Debug\glload.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /Isource /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D WIN32 /D DEBUG /D _DEBUG /D MEMORY_DEBUGGING /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt source\gll_c.c source\gll_gl_ext.c source\wgll_ext.c
+         wgll_ext.c
+         gll_gl_ext.c
+         gll_c.c
+         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /Isource /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D WIN32 /D DEBUG /D _DEBUG /D MEMORY_DEBUGGING /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\gll_cpp.cpp
+         gll_cpp.cpp
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\glloadD.lib" /NOLOGO Debug\gll_c.obj
+         Debug\gll_gl_ext.obj
+         Debug\gll_cpp.obj
+         Debug\wgll_ext.obj
+         glload.vcxproj -> C:\dev\engine\csc3204\lib\glload\lib\glloadD.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\glload.unsuccessfulbuild".
+         Touching "Debug\glload.lastbuildstate".
+     1>Done Building Project "C:\dev\engine\csc3204\lib\glload\glload.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.23

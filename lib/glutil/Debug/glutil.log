@@ -1,0 +1,33 @@
+﻿Build started 16/05/2013 13:04:12.
+     1>Project "C:\dev\engine\csc3204\lib\glutil\glutil.vcxproj" on node 3 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "lib\".
+       InitializeBuildStatus:
+         Creating "Debug\glutil.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /Isource /I..\glload\include /I..\glm /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D WIN32 /D DEBUG /D _DEBUG /D MEMORY_DEBUGGING /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\Debug.cpp source\Font.cpp source\ftData.cpp source\MatrixStack.cpp source\MousePoles.cpp source\Shader.cpp source\WindowPos.cpp
+         WindowPos.cpp
+         Shader.cpp
+         MousePoles.cpp
+         MatrixStack.cpp
+         ftData.cpp
+         Font.cpp
+         Debug.cpp
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\glutilD.lib" /NOLOGO Debug\Debug.obj
+         Debug\Font.obj
+         Debug\ftData.obj
+         Debug\MatrixStack.obj
+         Debug\MousePoles.obj
+         Debug\Shader.obj
+         Debug\WindowPos.obj
+         glutil.vcxproj -> C:\dev\engine\csc3204\lib\glutil\lib\glutilD.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\glutil.unsuccessfulbuild".
+         Touching "Debug\glutil.lastbuildstate".
+     1>Done Building Project "C:\dev\engine\csc3204\lib\glutil\glutil.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.66

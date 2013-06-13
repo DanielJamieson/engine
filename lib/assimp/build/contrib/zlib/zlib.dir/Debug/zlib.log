@@ -1,0 +1,38 @@
+﻿Build started 16/05/2013 13:00:46.
+     1>Project "C:\dev\engine\csc3204\lib\assimp\build\contrib\zlib\zlib.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "zlib.dir\Debug\zlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/dev/engine/csc3204/lib/assimp/contrib/zlib/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\engine\csc3204\lib\assimp\build\contrib\zlib\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/dev/engine/csc3204/lib/assimp/include /IC:/dev/engine/csc3204/lib/assimp/code/BoostWorkaround /IC:/dev/engine/csc3204/lib/assimp/contrib/zlib /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ASSIMP_BUILD_BOOST_WORKAROUND /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"zlib.dir\Debug\\" /Fd"C:/dev/engine/csc3204/lib/assimp/build/contrib/zlib/Debug/zlibd.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\contrib\zlib\adler32.c ..\..\..\contrib\zlib\compress.c ..\..\..\contrib\zlib\crc32.c ..\..\..\contrib\zlib\deflate.c ..\..\..\contrib\zlib\inffast.c ..\..\..\contrib\zlib\inflate.c ..\..\..\contrib\zlib\inftrees.c ..\..\..\contrib\zlib\trees.c ..\..\..\contrib\zlib\zutil.c  /Zm1000 
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         zutil.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\dev\engine\csc3204\lib\assimp\build\contrib\zlib\Debug\zlibd.lib" /NOLOGO zlib.dir\Debug\adler32.obj
+         zlib.dir\Debug\compress.obj
+         zlib.dir\Debug\crc32.obj
+         zlib.dir\Debug\deflate.obj
+         zlib.dir\Debug\inffast.obj
+         zlib.dir\Debug\inflate.obj
+         zlib.dir\Debug\inftrees.obj
+         zlib.dir\Debug\trees.obj
+         zlib.dir\Debug\zutil.obj
+         zlib.vcxproj -> C:\dev\engine\csc3204\lib\assimp\build\contrib\zlib\Debug\zlibd.lib
+       FinalizeBuildStatus:
+         Deleting file "zlib.dir\Debug\zlib.unsuccessfulbuild".
+         Touching "zlib.dir\Debug\zlib.lastbuildstate".
+     1>Done Building Project "C:\dev\engine\csc3204\lib\assimp\build\contrib\zlib\zlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.45

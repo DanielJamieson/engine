@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8DB91E75-678A-C54E-9E1B-D4D624BC76CA}</ProjectGuid>
+    <RootNamespace>src</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">obj\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">srcD</TargetName>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">obj\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">src</TargetName>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\lib\glload\include;..\lib\glimg\include;..\lib\glutil\include;..\lib\glmesh\include;..\lib\glm;..\lib\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\lib\glload\include;..\lib\glimg\include;..\lib\glutil\include;..\lib\glmesh\include;..\lib\glm;..\lib\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>assimpD.lib;glloadD.lib;glimgD.lib;glutilD.lib;glmeshD.lib;glfwD.lib;glu32.lib;opengl32.lib;gdi32.lib;winmm.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)srcD.exe</OutputFile>
+      <AdditionalLibraryDirectories>C:\dev\engine\lib\assimp\build\code\Debug;..\lib\glload\lib;..\lib\glimg\lib;..\lib\glutil\lib;..\lib\glmesh\lib;..\lib\glfw\library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDataBaseFileName>$(OutDir)srcD.pdb</ProgramDataBaseFileName>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>..\lib\glload\include;..\lib\glimg\include;..\lib\glutil\include;..\lib\glmesh\include;..\lib\glm;..\lib\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <OmitFramePointers>true</OmitFramePointers>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\lib\glload\include;..\lib\glimg\include;..\lib\glutil\include;..\lib\glmesh\include;..\lib\glm;..\lib\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>glload.lib;glimg.lib;glutil.lib;glmesh.lib;glfw.lib;glu32.lib;opengl32.lib;gdi32.lib;winmm.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)src.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\lib\glload\lib;..\lib\glimg\lib;..\lib\glutil\lib;..\lib\glmesh\lib;..\lib\glfw\library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Camera.h" />
+    <ClInclude Include="Engine\Crosshair.h" />
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\HeightMap.h" />
+    <ClInclude Include="Engine\Keyboard.h" />
+    <ClInclude Include="Engine\Mesh.h" />
+    <ClInclude Include="Engine\Mouse.h" />
+    <ClInclude Include="Engine\OGLRenderer.h" />
+    <ClInclude Include="Engine\Player.h" />
+    <ClInclude Include="Engine\Renderer.h" />
+    <ClInclude Include="Engine\SceneNode.h" />
+    <ClInclude Include="Engine\Shader.h" />
+    <ClInclude Include="Engine\Texture.h" />
+    <ClInclude Include="Engine\Transform.h" />
+    <ClInclude Include="Engine\Window.h" />
+    <ClInclude Include="Engine\Interfaces\Entity.h" />
+    <ClInclude Include="Engine\Interfaces\Scene.h" />
+    <ClInclude Include="Games\Game.h" />
+    <ClInclude Include="Scenes\GameScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\Crosshair.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\HeightMap.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\Keyboard.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\Mesh.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\Mouse.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\OGLRenderer.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\Player.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\SceneNode.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\Shader.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\Transform.cpp">
+    </ClCompile>
+    <ClCompile Include="Engine\Window.cpp">
+    </ClCompile>
+    <ClCompile Include="Games\Game.cpp">
+    </ClCompile>
+    <ClCompile Include="Scenes\GameScene.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

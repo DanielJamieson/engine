@@ -1,0 +1,18 @@
+﻿Build started 16/05/2013 13:02:44.
+     1>Project "C:\dev\engine\csc3204\lib\assimp\build\uninstall.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\uninstall\uninstall.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/dev/engine/csc3204/lib/assimp/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\engine\csc3204\lib\assimp\build\CMakeFiles\generate.stamp is up-to-date.
+         CMake Error at cmake_uninstall.cmake:2 (MESSAGE):
+           Cannot find install manifest:
+           "C:/dev/engine/csc3204/lib/assimp/build/install_manifest.txt"
+         
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: "cmd.exe" exited with code 1.
+     1>Done Building Project "C:\dev\engine\csc3204\lib\assimp\build\uninstall.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.09

@@ -1,0 +1,65 @@
+﻿Build started 16/05/2013 13:04:12.
+     1>Project "C:\dev\engine\csc3204\lib\glfw\glfw.vcxproj" on node 4 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "library\".
+       InitializeBuildStatus:
+         Creating "obj\Debug\glfw.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /Ilib /Ilib\win32 /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _LIB /D WIN32 /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt lib\enable.c lib\fullscreen.c lib\glext.c lib\image.c lib\init.c lib\input.c lib\joystick.c lib\stream.c lib\tga.c lib\thread.c lib\time.c lib\window.c lib\win32\win32_dllmain.c lib\win32\win32_enable.c lib\win32\win32_fullscreen.c lib\win32\win32_glext.c lib\win32\win32_init.c lib\win32\win32_joystick.c lib\win32\win32_thread.c lib\win32\win32_time.c lib\win32\win32_window.c
+         win32_window.c
+         win32_time.c
+         win32_thread.c
+         win32_joystick.c
+         win32_init.c
+         win32_glext.c
+         win32_fullscreen.c
+         win32_enable.c
+         win32_dllmain.c
+         window.c
+         time.c
+         thread.c
+         tga.c
+         stream.c
+     1>c:\dev\engine\csc3204\lib\glfw\lib\stream.c(31): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+         joystick.c
+         input.c
+         init.c
+         image.c
+         glext.c
+         fullscreen.c
+         Generating Code...
+         Compiling...
+         enable.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"library\glfwD.lib" /NOLOGO obj\Debug\enable.obj
+         obj\Debug\fullscreen.obj
+         obj\Debug\glext.obj
+         obj\Debug\image.obj
+         obj\Debug\init.obj
+         obj\Debug\input.obj
+         obj\Debug\joystick.obj
+         obj\Debug\stream.obj
+         obj\Debug\tga.obj
+         obj\Debug\thread.obj
+         obj\Debug\time.obj
+         obj\Debug\window.obj
+         obj\Debug\win32_dllmain.obj
+         obj\Debug\win32_enable.obj
+         obj\Debug\win32_fullscreen.obj
+         obj\Debug\win32_glext.obj
+         obj\Debug\win32_init.obj
+         obj\Debug\win32_joystick.obj
+         obj\Debug\win32_thread.obj
+         obj\Debug\win32_time.obj
+         obj\Debug\win32_window.obj
+         glfw.vcxproj -> C:\dev\engine\csc3204\lib\glfw\library\glfwD.lib
+       FinalizeBuildStatus:
+         Deleting file "obj\Debug\glfw.unsuccessfulbuild".
+         Touching "obj\Debug\glfw.lastbuildstate".
+     1>Done Building Project "C:\dev\engine\csc3204\lib\glfw\glfw.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.92

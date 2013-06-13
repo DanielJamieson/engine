@@ -1,0 +1,5 @@
+C:/dev/engine/csc3204/lib/assimp/build/CMakeFiles/ALL_BUILD.dir
+C:/dev/engine/csc3204/lib/assimp/build/CMakeFiles/ZERO_CHECK.dir
+C:/dev/engine/csc3204/lib/assimp/build/code/CMakeFiles/assimp.dir
+C:/dev/engine/csc3204/lib/assimp/build/CMakeFiles/uninstall.dir
+C:/dev/engine/csc3204/lib/assimp/build/contrib/zlib/CMakeFiles/zlib.dir
