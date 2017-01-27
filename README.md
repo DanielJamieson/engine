@@ -1,7 +1,5 @@
-engine
+C++ Game Engine
 ======
-
-a C++ game engine.
 
 Runs on OpenGL 3
 
